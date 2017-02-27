@@ -1,0 +1,69 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: everynet API plugin for Wordpress\n"
+"POT-Creation-Date: 2017-02-27 16:53+0200\n"
+"PO-Revision-Date: 2017-02-27 16:58+0200\n"
+"Last-Translator: Ferenc Székely <ferenc.szekely@urho.eu>\n"
+"Language-Team: Ferenc Székely <ferenc.szekely@urho.eu>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: includes\n"
+"X-Poedit-SearchPath-1: templates\n"
+"X-Poedit-SearchPath-2: .\n"
+
+#: everynet.php:66
+msgid "Setup"
+msgstr "Setup"
+
+#: includes/settings_page.php:68
+msgid "keys ok"
+msgstr "The API keys are saved."
+
+#: includes/settings_page.php:86
+msgid "wrong key format"
+msgstr "Some of the supplied keys are badly formatted. Those keys could not be saved."
+
+#: templates/settings.php:2
+msgid "Settings"
+msgstr "everynet API Settings"
+
+#: templates/settings.php:5
+msgid "everynet API URLs"
+msgstr "API entry points"
+
+#: templates/settings.php:9
+msgid "everynet Core URL"
+msgstr "URL of Core API"
+
+#: templates/settings.php:17
+msgid "everynet REST URL"
+msgstr "URL of RESTful API"
+
+#: templates/settings.php:26
+msgid "everynet API keys"
+msgstr "API keys"
+
+#: templates/settings.php:29
+msgid "everynet API key"
+msgstr "API key"
+
+#: templates/settings.php:30
+msgid "everynet API key comment"
+msgstr "Comment"
+
+#: templates/settings.php:64
+msgid "Save Changes"
+msgstr "Save Changes"
+
+#~ msgid "everynet API plugin settings"
+#~ msgstr "everynet API Plugin Settings"
+
+#~ msgid "everynet Core API details"
+#~ msgstr "everynet Core API details"

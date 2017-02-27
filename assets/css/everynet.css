@@ -1,0 +1,141 @@
+/**
+ * everynet API Plugin CSS
+ *
+ * Licensed under Expat License
+ * See LICENSE in the root of the source tree
+ *
+ * Copyright (c) Ferenc Szekely <ferenc.szekely@urho.eu>
+ *
+ */
+.hidden
+{
+  display: none !important;
+}
+
+.hint
+{
+  font-size: 9px;
+  font-style: italic;
+}
+
+h4.glomeid
+{
+  width: 85%;
+  word-wrap: break-word;
+}
+
+.loading
+{
+  width: 120px;
+  height: 6px;
+  margin: 0.5em 0 0.5em 0;
+  background-repeat: no-repeat;
+  background-image: url('/wp-includes/js/thickbox/loadingAnimation.gif');
+  background-position: -3px -2px;
+}
+
+.feedback
+{
+  display: inline-block;
+  background-color: white;
+  padding: 0.5em 0.5em 0.5em 1em;
+  color: black;
+}
+.feedback h4
+{
+  margin: 0;
+}
+.feedback.ok
+{
+  border-left: 3px solid green;
+}
+.feedback.nok
+{
+  border-left: 3px solid red;
+}
+
+/** settings page **/
+.settings .urls input,
+.settings .keys input
+{
+  height: 28px;
+}
+
+.settings .urls .col1,
+.settings .urls .col2,
+.settings .keys .col1,
+.settings .keys .col2
+{
+  display: inline-block;
+}
+
+.settings .urls .col1 {
+  width: 10em;
+}
+
+.settings .keys .col1 {
+  width: 45em;
+}
+
+.settings .keys .control {
+  width: 3em;
+  text-align: center;
+}
+
+/** devices page **/
+.devices button
+{
+  display: inline-block;
+  float: right;
+  border: 1px solid white;
+  text-align: center;
+  vertical-align: middle;
+}
+.devices button
+{
+  height: 2em;
+}
+
+.devices button:hover
+{
+  color: white;
+  background-color: darkgray;
+}
+
+.devices button:active
+{
+  color: white;
+  background-color: lightred;
+}
+
+.devices .list
+{
+  width: 90%;
+  padding: 0.5em;
+  background-color: darkgray;
+}
+
+.devices .list .device {
+  padding: 0.5em 0 0.5em 0;
+  border-bottom: 1px solid lightgray;
+}
+
+.devices .list .device:last-child {
+  border: none;
+}
+
+.devices .list .device .info {
+  width: 80%;
+  color: white;
+  display: inline-block;
+  margin: 0 1em 0.5em 0;
+  word-wrap: break-word;
+}
+
+.devices .list .device button {
+  width: 60px;
+}
+
+div.hint {
+  font-size: 12px;
+}
